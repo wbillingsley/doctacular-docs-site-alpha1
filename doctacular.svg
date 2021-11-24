@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="150" height="150">
+    <style>
+        path {
+            stroke: none;
+            fill: #7CB9E8;
+        }
+        #dt-clockdash path {
+            fill: #4169e1;
+        }
+    </style>
+    <g transform="translate(80, 50)">
+        <path fill-rule="evenodd" d="M 0 0 a 25 25 90 1 0 15 10 q -15 -25 0 -50 q -15 25 -15 40 M -21 24 a 15,15 0 1,0 30,0 a 15,15 0 1,0 -30,0" />
+        <g style="display: none;">
+            <g id="dt-clockdash">
+                <!-- circle cx="0" cy="0" r="2" / -->
+                <path d="M 0 -60 q -10 5 0 25 q 10 -20 0 -25" >
+                </path>
+            </g>
+        </g>
+        <g transform="translate(-5, 25) rotate(51)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(87)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(125)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(159)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(193)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(229)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(265)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(301)">
+        <use href="#dt-clockdash" />
+        </g>
+        <g transform="translate(-5, 25) rotate(337)">
+        <use href="#dt-clockdash" />
+        </g>
+
+    </g>
+</svg>
