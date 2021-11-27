@@ -19,3 +19,6 @@ node_modules/
 
 # For the moment, don't commit package-lock
 pacakge-lock.json
+
+# Include the deployed script
+!target/packed.js
