@@ -34,8 +34,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Compile the deck to JavaScript
         run: |
-          fullBuild.sh
-          git add --force target/packed.js
+          npm install
+          ./fullBuild.sh
+          mv .github/workflows/.gitignore.gh-pages .gitignore
 
       # Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
