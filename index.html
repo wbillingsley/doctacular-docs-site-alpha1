@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctacular site</title>
+    <link rel="icon" href="doctacular.svg" type="images/svg+xml" />
+</head>
+<body>
+
+<div id="render-here">
+    <div style="justify-content: center; position: absolute; text-align: center; left:50%; top:50%; transform: translate(-50%, -50%);" >
+        <img src="/doctacular.svg" />
+        <p style="font-family: monospace;">A Doctacular site is loading.</p>
+    </div>
+</div>
+
+<script>
+    // ace.js editor needs this to make text selections work in Chrome (otherwise it can't calculate scale correctly)
+    document.documentElement.style.zoom = 1
+
+    // As we're not hosting the Lava Maze images, we need to tell the Lava Maze library where to get them from
+    lavaSettings = {
+        imageBase: "https://www.wbillingsley.com/lavamaze/"
+    }
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+</style>
+<!-- <script src="https://cdn.jsdelivr.net/npm/marked@4.0.4/lib/marked.umd.min.js"></script>
+<script type="module" src="./target/scala-3.1.0/doctacular-site-fastopt/main.js"></script>
+-->
+<script src="target/packed.js" ></script>
+
+</body>
+</html>
