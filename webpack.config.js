@@ -4,6 +4,6 @@ module.exports = {
   entry: './target/compiled.js',
   output: {
     filename: 'packed.js',
-    path: path.resolve(__dirname, 'target'),
+    path: path.resolve(__dirname, 'packed'),
   },
 };
